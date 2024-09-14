@@ -1,0 +1,63 @@
+@import url("reset.css");
+
+/* * {
+	color: aqua;
+} */
+
+/* header{
+	color: aqua;
+} */
+
+header ul li {
+	color:darkblue;
+}
+
+/* li{
+	color: aqua;
+} */
+
+.title {
+	color: rgb(118, 3, 3);
+}
+
+#new_year {
+	color: green;
+}
+
+[class*="constitut"] {
+	color : red;
+}
+
+p.constitution_p1{
+	color: blueviolet;
+}
+
+#constitution .constitution_p2 {
+	color : goldenrod }
+
+	p.constitution_p3 {
+color: darkolivegreen;
+	}
+
+	#independence h2,
+	#independence p {
+		color: saddlebrown;
+	}
+
+	.class_defender * {
+	color: blue
+	}
+
+	
+
+	#christmas h2 + p {
+		color: gold;
+	}
+
+	.class_end > span {
+		color: green;
+		}
+
+	.class_end ~ p {
+		color: brown;
+	}
