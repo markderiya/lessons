@@ -1,0 +1,319 @@
+@import url("reset.css");
+@import url(fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+	background-color: #333;
+	color: #fff;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	font-family: "Gilroy", sans-serif;
+	max-width: 1140px;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: rgb(33, 33, 33);
+	padding-bottom: 50px;
+}
+
+.border-1 {
+	padding: 20px;
+	border-top: 10px solid rgb(0, 75, 0);
+	border-right: 10px dotted rgb(107, 78, 78);
+	border-bottom: 10px double rgb(149, 134, 248);
+	border-left: 10px dashed rgb(119, 119, 1);
+}
+
+.border-2 {
+	padding: 20px;
+	border-block: 15px dotted rgb(255, 162, 162);
+	border-inline: 15px dashed rgb(131, 187, 255);
+}
+
+.border-3 {
+	padding: 20px;
+	border-block-start: 10px solid rgb(191, 255, 162);
+	border-block-end: 10px double rgb(131, 187, 255);
+	border-inline-start: 15px dashed rgb(168, 93, 0);
+	border-inline-end: 15px dotted rgb(255, 141, 223);
+}
+
+.outline-1 {
+	border: 10px solid rgb(255, 131, 131);
+	outline-offset: 5px;
+	outline-color: green;
+	outline-width: 10px;
+	outline-style: dashed;
+}
+
+.radius-1 {
+	background-color: rgb(150, 0, 167);
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.radius-2 {
+	background-color: rgb(0, 167, 75);
+	width: 150px;
+	height: 150px;
+	border-radius: 40% 60% 40% 60% / 60% 40% 60% 40%;
+	margin: 0 auto;
+}
+
+.shadow-1{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	box-shadow: inset 20px 20px 70px rgb(142, 25, 251),
+	inset -10px -10px 10px rgb(67, 1, 129);
+	margin-bottom: 20px;
+}
+
+.shadow-2{
+	width: 150px;
+	height: 150px;
+	background-color: rgb(187, 247, 114);
+	margin: 20px;
+	margin: 0 auto;
+	box-shadow: 
+	10px 10px 5px rgb(87, 255, 177),
+	-10px -10px 5px rgb(87, 255, 177),
+	-15px 15px 0px rgb(252, 162, 255),
+	15px -15px 0px rgb(252, 162, 255);
+	margin-bottom: 20px;
+}
+
+.opacity-1 {
+	background-color: rgb(70, 88, 251);
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	opacity: 0.3;
+	box-shadow: inset 30px 30px 20px darkred 
+}
+
+.visability-1 {
+	background-color: rgb(0, 137, 92);
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	visibility: hidden;
+}
+
+.background-1 {
+	width: 100%;
+	height: 200px;
+	background-image: url(../img/beavis_and_butthead.gif);
+}
+
+.background-2 {
+	width: 100%;
+	min-height: 100px;
+	background-image: linear-gradient(130deg, rgba(2, 0, 36, 1) 17%, rgba(9, 9, 121, 1) 39%, rgba(0, 212, 255, 1) 98%);
+}
+
+.background-3 {
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/beavis_and_butthead.gif);
+	background-repeat: repeat-y ;
+	background-position: 200px 50px;
+}
+
+.background-4 {
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/beavis_and_butthead.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 280px;
+}
+
+.background-5 {
+	width: 100%;
+	height: 300px;
+	background: url("../img/tree.jpg") no-repeat -50px 0 /400px,
+	linear-gradient(55.95deg, rgba(255, 64, 58, 0.8) 0%, rgba(247, 94, 5, 0.8) 100%),
+	url("../img/smile.jpg") no-repeat right top / 500px;
+}
+
+/* ======================================================== */
+
+.container-pic1 {
+	font-family: Epilogue, sans-serif;
+	font-size: 0;
+	background-color: #FDF0E9;
+}
+
+.margin-pic1 {
+margin-inline: 9%;
+
+}
+
+.box-left-pic1 {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.box-right-pic1 {
+	display: inline-block;
+	width: 50%;
+	background-color: #58bfef;
+}
+
+.text-pic1-p1 {
+	color: #EF6D58;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 2.0;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.text-pic1-h1 {
+	color:#391400;
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 1.15;
+	letter-spacing: -1px;
+	text-transform: capitalize;
+	margin-bottom: 26px;
+}
+
+.text-pic1-p2 {
+	color: #391400;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.6;
+	margin-bottom: 26px;
+}
+
+.text-pic1-list1 {
+	color: rgba(57, 20, 0, 0.64);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 2.0;
+}
+
+.text-pic1-list1 li {
+	margin-bottom: 16px;
+	background: url(../img/main/check.png) 0 0 / 32px no-repeat;
+	padding-left: 48px;
+}
+
+.img-right-pic1 {
+	/* max-height: 100%; */
+	background: url(../img/main/Bitmap.png) no-repeat 135px 40px / 113px,
+	url(../img/main/Mask.png) no-repeat 100px 25px / 184px,
+	url(../img/main/Phone.png) no-repeat 58px 163px / 470px,
+	url(../img/main/Path.svg) no-repeat 18px 360px / 215px,url(../img/main/Rectangle.png) no-repeat 150px 268px / 360px,
+	url(../img/main/CombinedShape.png) no-repeat 235px 79px / 280px,
+	url(../img/main/Rectangle1.png) no-repeat 0 48px / 458px;	
+	height: 550px;
+}
+
+
+/* ===================================================== */
+
+
+.home-page {
+	margin: 0 auto;
+	font-size: 0;
+	font-family: "Manrope", sans-serif;
+
+}
+
+.image-container {
+	display: inline-block;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.image-container img {
+	max-width: 11.11% ;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+.image-background img {
+	width: 100%;
+	visibility: hidden;
+}
+
+.image-background {
+	background: url(../img/footer/icon.png) no-repeat center / 8%,
+	url(../img/footer/vector.png) no-repeat center / 24%,
+linear-gradient(0deg, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.5) 25%, rgba(255, 255, 255, 0) 40%),
+linear-gradient(180deg, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0.5) 25%, rgba(255, 255, 255, 0) 40%),
+	url(../img/footer/wave.png) no-repeat 0 0 / 100%,
+	url(../img/footer/sub_container.png) no-repeat 0 0 / 100%;
+}
+
+
+.content-container {
+	margin-top: -65px;
+}
+
+.text-title {
+	padding-inline: 21%;
+	margin-bottom: 50px;
+}
+
+.text-title  h1 {
+	color: #FFF;
+	text-align: center;
+	font-size: 58px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%;
+	text-transform: capitalize;
+	margin-bottom: 14px;
+}
+
+.text-title p {
+	color: #999;
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.button-container {
+	margin: 0 auto;
+	width: 251px;
+	height: 64px;
+	border-radius: 8px;
+	background: #E50000;
+}
+
+.button-container span {
+	display: inline-block;
+	background: url(../img/footer/button.png) no-repeat 0 0 / 28px;
+	padding-left: 32px;
+	margin: 18px 24px;
+	color: #FFF;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%;
+	text-transform: capitalize;
+}
