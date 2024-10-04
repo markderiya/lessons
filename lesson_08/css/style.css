@@ -1,0 +1,57 @@
+@import url("reset.css");
+@import url(fonts.css);
+
+
+.wrapper {
+	background-color: #333;
+	/* color: #fff; */
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.block {
+	/* background-color: rgb(251, 243, 233); */
+	font-family: 'Le Murmure';
+	letter-spacing: 1.2px;
+	color: rgb(36, 36, 36);
+}
+
+.box {
+	max-width: 1000px;
+	background-color: rgb(212, 212, 212);
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 0.5px solid #333;
+	border-radius: 20px;
+	box-shadow: 4px 4px 10px rgba(212, 212, 212, 0.625);
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 2.0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.content {
+	font-size: 30px;
+	padding: 15px 30px;
+	line-height: 1.5;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+img {
+	vertical-align: middle;
+	max-width: 50px;
+}
+
+span {
+	vertical-align: middle;
+}
+
+.box:nth-child(3) img{
+	max-width: 300px;
+}
