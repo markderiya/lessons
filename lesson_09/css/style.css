@@ -1,0 +1,10 @@
+@import url("reset.css");
+@import url(fonts.css);
+
+
+.wrapper {
+	background-color: #333;
+	color: #fff;
+	min-height: 100%;
+	overflow: hidden;
+}
