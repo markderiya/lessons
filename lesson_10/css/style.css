@@ -139,7 +139,7 @@
 	position: absolute;
 	width: 448px;
 	height: 576px;
-	background: url(../img/steps.webp) no-repeat 0 0 / cover;
+	background: url(/img/steps.webp) no-repeat 0 0 / cover;
 	z-index: 1;
 }
 
