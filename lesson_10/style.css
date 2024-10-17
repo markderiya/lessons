@@ -1,0 +1,200 @@
+@import url("reset.css");
+@import url(fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.wrapper {
+	background-color: #333;
+	color: #fff;
+	min-height: 100%;
+	/* overflow: clip; */
+	overflow: hidden;
+}
+
+.header__container,
+.footer__container{
+	font-family: 'Le Murmure', sans-serif;
+	padding: 15px;
+}
+
+.header__title {
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.footer__text {
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+/* #1========================================== */
+
+.pic {
+	background-color: #28293E;
+	margin-bottom: 5px;
+}
+
+.pic__container {
+	width: 570px;
+	height: 602px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.pic__imege1 {
+	position: absolute;
+	left: 300px;
+	top: 40px;
+	z-index: 10;
+}
+
+.pic__imege2 {
+	position: absolute;
+	left: 55px;
+	top: 430px;
+	z-index: 9;
+}
+
+.pic__imege3 {
+	position: absolute;
+	right: 0px;
+	top: 225px;
+	z-index: 8;
+}
+
+.pic__imege4 {
+	position: absolute;
+	right: 0px;
+	top: 189px;
+	z-index: 7;
+}
+
+.pic__imege5 {
+	position: absolute;
+	left: 21px;
+	top: 25px;
+	z-index: 6;
+}
+
+.pic__imege6 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 5;
+}
+
+.pic__imege7 {
+	position: absolute;
+	left: 313px;
+	bottom: 0px;
+	z-index: 4;
+}
+
+.pic__imege8 {
+	position: absolute;
+	left: 0px;
+	top: 340px;
+	z-index: 3;
+}
+
+.pic__imege9 {
+	position: absolute;
+	left: 458px;
+	top: 80px;
+	z-index: 2;
+}
+
+.pic__imege10 {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	z-index: 1;
+}
+
+
+/* #2========================================== */
+
+.gallery {
+	background-color: #28293E;
+	font-family: "Epilogue", sans-serif ;
+	margin-bottom: 5px;
+}
+
+.gallety__container {
+	width: 480px;
+	height: 608px;
+	margin: 0 auto;
+	border: solid #3A3C56 1px;
+	padding: 16px;
+}
+
+.gallery__inner {
+	position: relative;
+}
+
+.gallery__inner--image {
+	position: absolute;
+	width: 448px;
+	height: 576px;
+	background: url(img/steps.webp) no-repeat 0 0 / cover;
+	z-index: 1;
+}
+
+	.gallery__inner--brown {
+	position: absolute;
+	width: 448px;
+	height: 576px;
+	background-color: #5C2000;
+	opacity: 0.3181;
+	z-index: 2;
+} 
+
+	.gallery__item {
+	position: absolute;
+	top: 415px;
+	left: 48px;
+	z-index: 4;
+}
+
+	.button-item {
+	position: static;
+	width: 84px;
+	height: 38px;
+	border-radius: 19px;
+	background: #FFF;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 23px;
+	
+}
+
+.button-item__text{
+	color: #391400;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 2.0;
+}
+
+.title-item {
+	position: static;
+}
+
+.title-item__text {
+	color: #FFF;
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.button-item:hover {
+	border: solid 1px #391400;
+	box-shadow: 0px 0px 9px 1px #39140098;
+}
+
+.gallery__inner:hover .gallery__inner--brown {
+	opacity: 0.2;
+}
