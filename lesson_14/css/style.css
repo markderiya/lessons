@@ -102,11 +102,13 @@
 	border-radius: 6px;
 	border: 1px solid #262626;
 	background: #141414;
+	transition: 0.5s ease;
 }
 
 .form-black__input:hover {
 	transform: scale(1.02);
 	box-shadow: 0 0 10px 2px #4f4f4faf;
+	transition: 0.5s ease;
 }
 
 .form-black__textarea {
@@ -120,11 +122,13 @@
 	background: #141414;
 	resize: vertical;
 	margin-bottom: 40px;
+	transition: 0.5s ease;
 }
 
 .form-black__textarea:hover {
 	transform: scale(1.01);
 	box-shadow: 0 0 10px 2px #4f4f4faf;
+	transition: 0.5s ease;
 }
 
 .form-black__footer {
@@ -141,14 +145,32 @@
 .form-black__chackbox {
 	width: 24px;
 	height: 24px;
-	background: #E50000;
 	vertical-align: middle;
+	transition: 0.3s ease;
 }
 
 .form-black__chackbox:hover {
 	width: 28px;
 	height: 28px;
-	box-shadow: 0 0 10px 2px #0062ffc4;
+	box-shadow: 0 0 10px 2px #ff0000da;
+	transition: 0.3s ease;
+}
+
+.form-black__chackbox::before {
+	content: "";
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	background-color: #262626;
+}
+
+.form-black__chackbox:checked::before {
+	content: "";
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	background: no-repeat url(../img/heart.svg) 0 0 / cover;
+	background-color: #863333;
 }
 
 .form-black__label--color {
@@ -170,11 +192,14 @@
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 1.5;
+	transition: 0.3s ease;
 }
 
 .form-black__button:hover {
 	transform: scale(1.02);
+	background-color: #863333;
 	box-shadow: 0 0 10px 2px #ff0000da;
+	transition: 0.3s ease;
 }
 
 
@@ -260,11 +285,15 @@
 	min-height: 38px;
 	border-bottom: 1.5px solid #E6E8EB;
 	padding-bottom: 14px;
-	vertical-align: text-top
+	vertical-align: text-top;
+	transition: 0.2s ease;
 }
 
-.form-projeck__input:hover {
+.form-projeck__input:hover,
+.form-projeck__button:hover {
 	border-bottom: 1.5px solid #A53DFF;
+	transform: translate(-3px, -3px);
+	transition: 0.2s ease;
 }
 
 .form-projeck__block input:hover::placeholder {
@@ -292,10 +321,18 @@
 	background: no-repeat url(../img/paper-plane.svg) center center / cover;
 }
 
+
+
 input:hover {
 	cursor: pointer;
 }
 input:focus {
+	cursor: crosshair;
+}
+textarea:hover {
+	cursor: pointer;
+}
+textarea:focus {
 	cursor: crosshair;
 }
 
