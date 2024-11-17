@@ -325,6 +325,18 @@
 	position: relative;
 }
 
+.gallery-genres__box::after {
+	content: "";
+	background: linear-gradient(180deg, rgba(26, 26, 26, 0.00) 0%, #1A1A1A 101.79%);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	inset: 0;
+	border-radius: 12px;
+	transition: all 0.2s;
+}
+
+
 .gallery-genres__box:hover,
 .gallery-genres__box:hover::after {
 	box-shadow: 0 0 5px 0.5px #fff;
@@ -336,9 +348,9 @@
 	display: flex;
 	flex-basis: 215px;
 	justify-content: space-between;
-
 	gap: 5px;
 }
+
 .gallery-genres__box-row:first-child {
 	margin-bottom: 5px;
 }
@@ -350,6 +362,7 @@
 
 .gallery-genres__nav{
 	max-width: 215px;
+	min-height: 30px;
 	display: flex;
 	justify-content: space-between;
 	gap: 15px;
