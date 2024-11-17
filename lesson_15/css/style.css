@@ -1,0 +1,388 @@
+@import url("reset.css");
+@import url(fonts.css);
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+
+.wrapper {
+	background-color: #333;
+	font-family: 'Le Murmure', sans-serif;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: clip;
+	/* overflow: hidden; */
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+.wrapper > header, footer {
+	padding: 15px;
+}
+.header__title {
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+.footer__text {
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+
+[class*="__container"] {
+	max-width: 1630px;
+	padding-inline: 15px;
+	margin: 0 auto;
+}
+
+
+/* === movies === */
+/* ++++++++++++++ */
+
+.movies {
+	font-family: "Manrope", sans-serif ;
+	color: #fff;
+	font-size: 38px;
+	text-transform: capitalize;
+	line-height: 1.5;
+	background-color: #141414;
+	padding-top: 15px;
+}
+
+.movies__button {
+	width: 200px;
+	height: 75px;
+	border-radius: 12px;
+	border: 1px solid #1F1F1F;
+	background: #0F0F0F;
+	padding: 5px 15px;
+	margin-bottom: 15px;
+}
+
+.movies__button::after {
+	content: "";
+	width: 28px;
+	height: 28px;
+	margin-left: 20px;
+	background: no-repeat url(../img/icon/arrow-right.svg) center / cover;
+	vertical-align: middle;
+}
+
+/* === control ==== */
+
+.control__wrapper {
+	width: 255px;
+	height: 90px;
+	border-radius: 12px;
+	border: 1px solid #1F1F1F;
+	background: #0F0F0F;
+	padding: 16px;
+}
+
+.control__inner {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+	align-items: center;
+}
+
+.control__button-left,
+.control__button-right {
+	max-width: 56px;
+	max-height: 56px;
+	border-radius: 8px;
+	border: 1px solid #1F1F1F;
+	background: #1A1A1A;
+	transition: all 0.2s;
+}
+
+.control__button-left::after {
+	content: "";
+	width: 28px;
+	height: 28px;
+	margin: 14px;
+	background: no-repeat url(../img/icon/arrow-left.svg) center / cover;
+}
+
+.control__button-right::after {
+	content: "";
+	width: 28px;
+	height: 28px;
+	margin: 14px;
+	background: no-repeat url(../img/icon/arrow-right.svg) center / cover;
+}
+
+.control__button-left:hover,
+.control__button-right:hover,
+.movies__button:hover {
+	box-shadow: 0 0 5px 1px #fff;
+	transition: all 0.2s;
+}
+
+.control__navbar {
+	max-width: 81px;
+	max-height: 4px;
+}
+
+/* === rating === */
+
+.rating__wrapper {
+	max-width: 150px;
+	/* min-height: 35px; */
+	padding: 6px 10px;
+	border-radius: 51px;
+	border: 1px solid #262626;
+	background: #141414;
+}
+
+.rating__inner {
+	display: flex;
+	justify-content: space-evenly;
+	/* flex-wrap: wrap; */
+}
+
+.rating__stars {
+	max-width: 100px;
+	min-height: 18px;
+	display: flex;
+}
+
+.rating__stars>img {
+	width: 18px;
+	height: 18px;
+	
+}
+.rating__text {
+	color: #999;
+	font-size: 14px;
+	font-weight: 500;
+
+}
+
+/* === time === */
+
+.time__wrapper {
+	width: 110px;
+	height: 35px;
+	padding: 6px 10px;
+	border-radius: 51px;
+	border: 1px solid #262626;
+	background: #141414;
+}
+
+.time__inner {
+	display: flex;
+	gap: 2px;
+}
+
+.time__icon {
+	width: 24px;
+	height: 24px;
+}
+
+.time__text {
+	color: #999;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+
+/* === must-watch === */
+
+.must-watch__wrapper {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 50px;
+	border-radius: 12px;
+	border: 1px solid #262626;
+	margin-bottom: 170px;
+}
+
+/* === title === */
+
+.must-watch__title {
+	max-width: 1500px;
+	min-height: 90px;
+	margin-bottom: 50px;
+}
+
+.title__inner {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 870px) {
+	.title__inner {
+		justify-content: center;
+		}
+}
+
+.gallery-must__wrapper {
+	max-width: 1500px;
+	display: flex;
+	gap: 20px;
+}
+
+@media (max-width: 870px) {
+	.gallery-must__wrapper {
+		flex-wrap: wrap;
+		justify-content: center;
+		}
+}
+
+
+
+.gallery-must__box {
+	max-width: 360px;
+	flex: 1 1 360px;
+	padding: 20px;
+	border-radius: 12px;
+	border: 1px solid #262626;
+	background: #1A1A1A;
+	transition: all 0.2s;
+}
+
+.gallery-must__box:hover {
+	box-shadow: 0 0 5px 1px #fff;
+	transition: all 0.2s;
+}
+
+.gallery-must__box>img {
+	max-width: 100%;
+	border-radius: 12px;
+	margin-bottom: 20px;
+	object-fit: cover;
+	aspect-ratio: 320 / 404;
+}
+
+.gallery-must__info {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+@media (min-width: 1490px) {
+	.gallery-must__info {
+			flex-wrap: wrap;
+		}
+}
+
+/* === our-genres === */
+
+.our-genres__wrapper {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 50px;
+	border-radius: 12px;
+	border: 1px solid #262626;
+	position: relative;
+}
+
+.shows__button {
+	max-width: 110px;
+	min-height: 50px;
+	padding: 10px 24px;
+	align-items: center;
+	border-radius: 8px;
+	background: #E50000;
+	font-size: 20px;
+	font-weight: 600;
+	display: block;
+	position: absolute;
+	top: -25px;
+	transition: all 0.2s;
+}
+
+.shows__button:hover {
+	box-shadow: 0 0 5px 1px #fff;
+	border: 1px solid #262626;
+	transition: all 0.2s;
+}
+
+.our-genres__title {
+	max-width: 1500px;
+	min-height: 90px;
+	margin-bottom: 50px;
+}
+
+.gallery-genres__wrapper {
+	max-width: 1500px;
+	margin: 0 auto;
+	display: flex;
+	gap: 30px;
+}
+
+.gallery-genres__box {
+	padding: 30px;
+	border-radius: 12px;
+	border: 1px solid #262626;
+	background: #1A1A1A;
+	transition: all 0.2s;
+	position: relative;
+}
+
+.gallery-genres__box:hover,
+.gallery-genres__box:hover::after {
+	box-shadow: 0 0 5px 0.5px #fff;
+	transition: all 0.2s;
+	background: none;
+}
+
+.gallery-genres__box-row {
+	display: flex;
+	flex-basis: 215px;
+	justify-content: space-between;
+
+	gap: 5px;
+}
+.gallery-genres__box-row:first-child {
+	margin-bottom: 5px;
+}
+
+.gallery-genres__box-row>img {
+	max-width: 50%;
+	object-fit: cover;
+}
+
+.gallery-genres__nav{
+	max-width: 215px;
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+
+.gallery-genres__text {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.gallery-genres__button {
+	max-width: 215px;
+	min-height: 30px;
+}
+
+.gallery-genres__button::after {
+	content: "";
+	width: 30px;
+	height: 30px;
+	background: no-repeat url(../img/icon/arrow-right.svg) center / cover;
+	position: absolute;
+	margin: -15px -30px;
+}
+
+@media (max-width: 1170px) {
+	.gallery-genres__wrapper {
+			flex-wrap: wrap;
+		}
+}
+
+@media (max-width: 720px) {
+	.gallery-genres__wrapper {
+			justify-content: center;
+		}
+}
