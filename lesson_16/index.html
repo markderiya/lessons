@@ -14,7 +14,7 @@
 	<div class="wrapper">
 
 		<header class="header">
-			<div class="header__container">
+			<div class="header__container fixed">
 
 				<img src="img/logo.svg" class="header__logo" alt="logo">
 
@@ -22,11 +22,11 @@
 					<div class="menu__body">
 
 						<ul class="menu__list">
-							<li class="menu__item">
-								<a href="#" class="menu__link">About</a>
+							<li class="menu__item ">
+								<a href="#" class="menu__link active">About</a>
 							</li>
 							<li class="menu__item">
-								<a href="#" class="menu__link active">Services</a>
+								<a href="#" class="menu__link ">Services</a>
 							</li>
 							<li class="menu__item">
 								<a href="#" class="menu__link">Pricing</a>
@@ -34,16 +34,16 @@
 							<li class="menu__item">
 								<a href="#" class="menu__link">Blog</a>
 							</li>
-
 						</ul>
 
 					</div>
 				</div>
 
 				<div class="header__actions actions-header">
-					<button class="actions-header__contact" type="button">Contact</button>
-					<button class="actions-header__menu" type="button"><span></span></button>
-
+					<a class="actions-header__button button" href="#">Contact</a>
+					<button class="actions-header__menu" type="button">
+						<span></span>
+					</button>
 				</div>
 
 			</div>
@@ -51,7 +51,34 @@
 
 
 		<main class="main">
-			<div class="main__container">
+			<div class="main__container home-page">
+
+				<div class="home-page__content">
+					<div class="home-page__text">
+						<div class="home-page__subtitle"> Modern Studio</div>
+						<h1 class="home-page__title">We’re Help
+							To Build Your
+							Dream Project</h1>
+						<p class="home-page__info">Agency provides a full service range including technical skills, design,
+							business understanding.
+						</p>
+						<div class="home-page__buttons">
+							<a class="home-page__button button button--red" href="#">How We Work</a>
+							<a class="home-page__button button button--no-active" href="#">Contact Us</a>
+						</div>
+					</div>
+					<div class="home-page__image">
+						<img src="img/content.webp" alt="herro-image">
+					</div>
+				</div>
+
+				<div class="home-page__merchant merchant">
+					<img src="img/merchant.webp" class="merchant__image" alt="merchant-foto">
+					<div class="merchant__text">
+						<p class="merchant__info">"Put themselves in the merchant's shoes"</p>
+						<a class="merchant__inc" href="#">Meta Inc.</a>
+					</div>
+				</div>
 
 			</div>
 		</main>
