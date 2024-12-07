@@ -5,6 +5,7 @@
 body {
 	font-family: "Epilogue", sans-serif;
 	color: #fff;
+	background-color: rgb(180, 180, 180);
 }
 
 .wrapper {
@@ -25,6 +26,11 @@ body {
 .header__text {
 	font-size: 35px;
 	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.header__btn {
+	font-size: 25px;
+	color: rgb(159, 64, 64);
 }
 .footer__text {
 	font-size: 25px;
@@ -41,12 +47,6 @@ body {
 
 /* --------------------- */
 
-
-body {
-	margin: 0;
-	font-family: Arial, sans-serif;
-	background-color: rgb(180, 180, 180);
-}
 
 .main__container {
 	padding-block: 30px;
@@ -68,7 +68,6 @@ body {
 
 .grid-inner {
 	display: grid;
-	
 }
 
 .grid-inner__block-1,
