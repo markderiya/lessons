@@ -1,0 +1,33 @@
+@import url("reset.css");
+@import url(fonts.css);
+@import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+	font-family: "Epilogue", sans-serif;
+	color: #391400;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: clip;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+.wrapper > header, footer {
+}
+.header__text {
+}
+.footer__text {
+
+}
+
+/* --------------------- */
+
+[class *="__container"] {
+	max-width: calc(1440px + 30px);
+	margin: 0 auto;
+	padding-inline: 15px;
+}
