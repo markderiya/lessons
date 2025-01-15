@@ -1,0 +1,33 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#1E1E1E"/>
+<g id="Movies &#38; Shows Page - Desktop" clip-path="url(#clip0_34_3)">
+<rect width="1920" height="8955" transform="translate(-236 -2916)" fill="#141414"/>
+<g id="Container">
+<g id="Sub Container">
+<rect x="-75.5" y="-1710.5" width="1597" height="3163" rx="11.5" stroke="#262626"/>
+<g id="Container_2">
+<g id="Sub Container_2">
+<g id="Card">
+<rect x="-25.5" y="-326.5" width="282.6" height="376" rx="11.5" fill="#1A1A1A"/>
+<rect x="-25.5" y="-326.5" width="282.6" height="376" rx="11.5" stroke="#262626"/>
+<g id="Container_3">
+<g id="Sub Container_3">
+<rect x="-5.5" y="-5.5" width="107" height="35" rx="17.5" fill="#141414"/>
+<rect x="-5.5" y="-5.5" width="107" height="35" rx="17.5" stroke="#262626"/>
+<g id="Icon">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25C6.61522 2.25 2.25 6.61522 2.25 12C2.25 17.3848 6.61522 21.75 12 21.75C17.3848 21.75 21.75 17.3848 21.75 12C21.75 6.61522 17.3848 2.25 12 2.25ZM12.75 6C12.75 5.58579 12.4142 5.25 12 5.25C11.5858 5.25 11.25 5.58579 11.25 6V12C11.25 12.4142 11.5858 12.75 12 12.75H16.5C16.9142 12.75 17.25 12.4142 17.25 12C17.25 11.5858 16.9142 11.25 16.5 11.25H12.75V6Z" fill="#999999"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_34_3">
+<rect width="1920" height="8955" fill="white" transform="translate(-236 -2916)"/>
+</clipPath>
+</defs>
+</svg>
